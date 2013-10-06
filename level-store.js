@@ -131,7 +131,6 @@ LevelStore.prototype._forEach = function (id, fn, callback) {
         fn(lkey[1], data.value)
       else if (lkey.length != 2 || lkey[0] > id) {
         rs.destroy()
-        callback()
       }
     })
     .on('end', callback)
