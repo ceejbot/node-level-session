@@ -14,9 +14,9 @@
     }
   , "dependencies" : {
         "generic-session" : "~0.0.2"
-      , "level-ttl"       : "*"
-      , "xtend"           : "*"
-      , "level-sublevel"  : "*"
+      , "level-ttl"       : "~0.3.0"
+      , "xtend"           : "~2.1.1"
+      , "level-sublevel"  : "~4.7.1"
     }
   , "devDependencies" : {
         "tap"             : "*"
